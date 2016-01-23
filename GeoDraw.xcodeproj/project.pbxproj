@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C44C0A681C5345EF00DAF179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C0A671C5345EF00DAF179 /* AppDelegate.swift */; };
+		C44C0A6A1C5345EF00DAF179 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C0A691C5345EF00DAF179 /* ViewController.swift */; };
+		C44C0A6D1C5345EF00DAF179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44C0A6B1C5345EF00DAF179 /* Main.storyboard */; };
+		C44C0A6F1C5345EF00DAF179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44C0A6E1C5345EF00DAF179 /* Assets.xcassets */; };
+		C44C0A721C5345EF00DAF179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44C0A701C5345EF00DAF179 /* LaunchScreen.storyboard */; };
+		C44C0A7D1C5345EF00DAF179 /* GeoDrawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C0A7C1C5345EF00DAF179 /* GeoDrawTests.swift */; };
+		C44C0A881C5345EF00DAF179 /* GeoDrawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C0A871C5345EF00DAF179 /* GeoDrawUITests.swift */; };
+		C44C0A8D1C5345EF00DAF179 /* GeoDraw WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C44C0A8C1C5345EF00DAF179 /* GeoDraw WatchKit App.app */; };
+		C44C0A931C5345EF00DAF179 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44C0A911C5345EF00DAF179 /* Interface.storyboard */; };
+		C44C0A951C5345EF00DAF179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44C0A941C5345EF00DAF179 /* Assets.xcassets */; };
+		C44C0A9C1C5345EF00DAF179 /* GeoDraw WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C44C0A9B1C5345EF00DAF179 /* GeoDraw WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C44C0AA31C5345EF00DAF179 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C0AA21C5345EF00DAF179 /* InterfaceController.swift */; };
+		C44C0AA51C5345EF00DAF179 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C0AA41C5345EF00DAF179 /* ExtensionDelegate.swift */; };
+		C44C0AA71C5345EF00DAF179 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C0AA61C5345EF00DAF179 /* NotificationController.swift */; };
+		C44C0AA91C5345EF00DAF179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44C0AA81C5345EF00DAF179 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C44C0A791C5345EF00DAF179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C44C0A5C1C5345EF00DAF179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C44C0A631C5345EF00DAF179;
+			remoteInfo = GeoDraw;
+		};
+		C44C0A841C5345EF00DAF179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C44C0A5C1C5345EF00DAF179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C44C0A631C5345EF00DAF179;
+			remoteInfo = GeoDraw;
+		};
+		C44C0A8E1C5345EF00DAF179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C44C0A5C1C5345EF00DAF179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C44C0A8B1C5345EF00DAF179;
+			remoteInfo = "GeoDraw WatchKit App";
+		};
+		C44C0A9D1C5345EF00DAF179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C44C0A5C1C5345EF00DAF179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C44C0A9A1C5345EF00DAF179;
+			remoteInfo = "GeoDraw WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C44C0AB01C5345EF00DAF179 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C44C0A9C1C5345EF00DAF179 /* GeoDraw WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44C0AB41C5345EF00DAF179 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C44C0A8D1C5345EF00DAF179 /* GeoDraw WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C44C0A641C5345EF00DAF179 /* GeoDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44C0A671C5345EF00DAF179 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C44C0A691C5345EF00DAF179 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C44C0A6C1C5345EF00DAF179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C44C0A6E1C5345EF00DAF179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C44C0A711C5345EF00DAF179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C44C0A731C5345EF00DAF179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44C0A781C5345EF00DAF179 /* GeoDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44C0A7C1C5345EF00DAF179 /* GeoDrawTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoDrawTests.swift; sourceTree = "<group>"; };
+		C44C0A7E1C5345EF00DAF179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44C0A831C5345EF00DAF179 /* GeoDrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoDrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44C0A871C5345EF00DAF179 /* GeoDrawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoDrawUITests.swift; sourceTree = "<group>"; };
+		C44C0A891C5345EF00DAF179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44C0A8C1C5345EF00DAF179 /* GeoDraw WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GeoDraw WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44C0A921C5345EF00DAF179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C44C0A941C5345EF00DAF179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C44C0A961C5345EF00DAF179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44C0A9B1C5345EF00DAF179 /* GeoDraw WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GeoDraw WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44C0AA11C5345EF00DAF179 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C44C0AA21C5345EF00DAF179 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C44C0AA41C5345EF00DAF179 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C44C0AA61C5345EF00DAF179 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C44C0AA81C5345EF00DAF179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C44C0AAA1C5345EF00DAF179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C44C0A611C5345EF00DAF179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44C0A751C5345EF00DAF179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44C0A801C5345EF00DAF179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44C0A981C5345EF00DAF179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C44C0A5B1C5345EF00DAF179 = {
+			isa = PBXGroup;
+			children = (
+				C44C0A661C5345EF00DAF179 /* GeoDraw */,
+				C44C0A7B1C5345EF00DAF179 /* GeoDrawTests */,
+				C44C0A861C5345EF00DAF179 /* GeoDrawUITests */,
+				C44C0A901C5345EF00DAF179 /* GeoDraw WatchKit App */,
+				C44C0A9F1C5345EF00DAF179 /* GeoDraw WatchKit Extension */,
+				C44C0A651C5345EF00DAF179 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C44C0A651C5345EF00DAF179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C44C0A641C5345EF00DAF179 /* GeoDraw.app */,
+				C44C0A781C5345EF00DAF179 /* GeoDrawTests.xctest */,
+				C44C0A831C5345EF00DAF179 /* GeoDrawUITests.xctest */,
+				C44C0A8C1C5345EF00DAF179 /* GeoDraw WatchKit App.app */,
+				C44C0A9B1C5345EF00DAF179 /* GeoDraw WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C44C0A661C5345EF00DAF179 /* GeoDraw */ = {
+			isa = PBXGroup;
+			children = (
+				C44C0A671C5345EF00DAF179 /* AppDelegate.swift */,
+				C44C0A691C5345EF00DAF179 /* ViewController.swift */,
+				C44C0A6B1C5345EF00DAF179 /* Main.storyboard */,
+				C44C0A6E1C5345EF00DAF179 /* Assets.xcassets */,
+				C44C0A701C5345EF00DAF179 /* LaunchScreen.storyboard */,
+				C44C0A731C5345EF00DAF179 /* Info.plist */,
+			);
+			path = GeoDraw;
+			sourceTree = "<group>";
+		};
+		C44C0A7B1C5345EF00DAF179 /* GeoDrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				C44C0A7C1C5345EF00DAF179 /* GeoDrawTests.swift */,
+				C44C0A7E1C5345EF00DAF179 /* Info.plist */,
+			);
+			path = GeoDrawTests;
+			sourceTree = "<group>";
+		};
+		C44C0A861C5345EF00DAF179 /* GeoDrawUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C44C0A871C5345EF00DAF179 /* GeoDrawUITests.swift */,
+				C44C0A891C5345EF00DAF179 /* Info.plist */,
+			);
+			path = GeoDrawUITests;
+			sourceTree = "<group>";
+		};
+		C44C0A901C5345EF00DAF179 /* GeoDraw WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C44C0A911C5345EF00DAF179 /* Interface.storyboard */,
+				C44C0A941C5345EF00DAF179 /* Assets.xcassets */,
+				C44C0A961C5345EF00DAF179 /* Info.plist */,
+			);
+			path = "GeoDraw WatchKit App";
+			sourceTree = "<group>";
+		};
+		C44C0A9F1C5345EF00DAF179 /* GeoDraw WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C44C0AA21C5345EF00DAF179 /* InterfaceController.swift */,
+				C44C0AA41C5345EF00DAF179 /* ExtensionDelegate.swift */,
+				C44C0AA61C5345EF00DAF179 /* NotificationController.swift */,
+				C44C0AA81C5345EF00DAF179 /* Assets.xcassets */,
+				C44C0AAA1C5345EF00DAF179 /* Info.plist */,
+				C44C0AA01C5345EF00DAF179 /* Supporting Files */,
+			);
+			path = "GeoDraw WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C44C0AA01C5345EF00DAF179 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C44C0AA11C5345EF00DAF179 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C44C0A631C5345EF00DAF179 /* GeoDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44C0AB51C5345EF00DAF179 /* Build configuration list for PBXNativeTarget "GeoDraw" */;
+			buildPhases = (
+				C44C0A601C5345EF00DAF179 /* Sources */,
+				C44C0A611C5345EF00DAF179 /* Frameworks */,
+				C44C0A621C5345EF00DAF179 /* Resources */,
+				C44C0AB41C5345EF00DAF179 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C44C0A8F1C5345EF00DAF179 /* PBXTargetDependency */,
+			);
+			name = GeoDraw;
+			productName = GeoDraw;
+			productReference = C44C0A641C5345EF00DAF179 /* GeoDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C44C0A771C5345EF00DAF179 /* GeoDrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44C0AB81C5345EF00DAF179 /* Build configuration list for PBXNativeTarget "GeoDrawTests" */;
+			buildPhases = (
+				C44C0A741C5345EF00DAF179 /* Sources */,
+				C44C0A751C5345EF00DAF179 /* Frameworks */,
+				C44C0A761C5345EF00DAF179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C44C0A7A1C5345EF00DAF179 /* PBXTargetDependency */,
+			);
+			name = GeoDrawTests;
+			productName = GeoDrawTests;
+			productReference = C44C0A781C5345EF00DAF179 /* GeoDrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C44C0A821C5345EF00DAF179 /* GeoDrawUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44C0ABB1C5345EF00DAF179 /* Build configuration list for PBXNativeTarget "GeoDrawUITests" */;
+			buildPhases = (
+				C44C0A7F1C5345EF00DAF179 /* Sources */,
+				C44C0A801C5345EF00DAF179 /* Frameworks */,
+				C44C0A811C5345EF00DAF179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C44C0A851C5345EF00DAF179 /* PBXTargetDependency */,
+			);
+			name = GeoDrawUITests;
+			productName = GeoDrawUITests;
+			productReference = C44C0A831C5345EF00DAF179 /* GeoDrawUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C44C0A8B1C5345EF00DAF179 /* GeoDraw WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44C0AB11C5345EF00DAF179 /* Build configuration list for PBXNativeTarget "GeoDraw WatchKit App" */;
+			buildPhases = (
+				C44C0A8A1C5345EF00DAF179 /* Resources */,
+				C44C0AB01C5345EF00DAF179 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C44C0A9E1C5345EF00DAF179 /* PBXTargetDependency */,
+			);
+			name = "GeoDraw WatchKit App";
+			productName = "GeoDraw WatchKit App";
+			productReference = C44C0A8C1C5345EF00DAF179 /* GeoDraw WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C44C0A9A1C5345EF00DAF179 /* GeoDraw WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44C0AAD1C5345EF00DAF179 /* Build configuration list for PBXNativeTarget "GeoDraw WatchKit Extension" */;
+			buildPhases = (
+				C44C0A971C5345EF00DAF179 /* Sources */,
+				C44C0A981C5345EF00DAF179 /* Frameworks */,
+				C44C0A991C5345EF00DAF179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GeoDraw WatchKit Extension";
+			productName = "GeoDraw WatchKit Extension";
+			productReference = C44C0A9B1C5345EF00DAF179 /* GeoDraw WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C44C0A5C1C5345EF00DAF179 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HackDraw;
+				TargetAttributes = {
+					C44C0A631C5345EF00DAF179 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C44C0A771C5345EF00DAF179 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C44C0A631C5345EF00DAF179;
+					};
+					C44C0A821C5345EF00DAF179 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C44C0A631C5345EF00DAF179;
+					};
+					C44C0A8B1C5345EF00DAF179 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C44C0A9A1C5345EF00DAF179 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = C44C0A5F1C5345EF00DAF179 /* Build configuration list for PBXProject "GeoDraw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C44C0A5B1C5345EF00DAF179;
+			productRefGroup = C44C0A651C5345EF00DAF179 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C44C0A631C5345EF00DAF179 /* GeoDraw */,
+				C44C0A771C5345EF00DAF179 /* GeoDrawTests */,
+				C44C0A821C5345EF00DAF179 /* GeoDrawUITests */,
+				C44C0A8B1C5345EF00DAF179 /* GeoDraw WatchKit App */,
+				C44C0A9A1C5345EF00DAF179 /* GeoDraw WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C44C0A621C5345EF00DAF179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44C0A721C5345EF00DAF179 /* LaunchScreen.storyboard in Resources */,
+				C44C0A6F1C5345EF00DAF179 /* Assets.xcassets in Resources */,
+				C44C0A6D1C5345EF00DAF179 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44C0A761C5345EF00DAF179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44C0A811C5345EF00DAF179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44C0A8A1C5345EF00DAF179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44C0A951C5345EF00DAF179 /* Assets.xcassets in Resources */,
+				C44C0A931C5345EF00DAF179 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44C0A991C5345EF00DAF179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44C0AA91C5345EF00DAF179 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C44C0A601C5345EF00DAF179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44C0A6A1C5345EF00DAF179 /* ViewController.swift in Sources */,
+				C44C0A681C5345EF00DAF179 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44C0A741C5345EF00DAF179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44C0A7D1C5345EF00DAF179 /* GeoDrawTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44C0A7F1C5345EF00DAF179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44C0A881C5345EF00DAF179 /* GeoDrawUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44C0A971C5345EF00DAF179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44C0AA71C5345EF00DAF179 /* NotificationController.swift in Sources */,
+				C44C0AA51C5345EF00DAF179 /* ExtensionDelegate.swift in Sources */,
+				C44C0AA31C5345EF00DAF179 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C44C0A7A1C5345EF00DAF179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C44C0A631C5345EF00DAF179 /* GeoDraw */;
+			targetProxy = C44C0A791C5345EF00DAF179 /* PBXContainerItemProxy */;
+		};
+		C44C0A851C5345EF00DAF179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C44C0A631C5345EF00DAF179 /* GeoDraw */;
+			targetProxy = C44C0A841C5345EF00DAF179 /* PBXContainerItemProxy */;
+		};
+		C44C0A8F1C5345EF00DAF179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C44C0A8B1C5345EF00DAF179 /* GeoDraw WatchKit App */;
+			targetProxy = C44C0A8E1C5345EF00DAF179 /* PBXContainerItemProxy */;
+		};
+		C44C0A9E1C5345EF00DAF179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C44C0A9A1C5345EF00DAF179 /* GeoDraw WatchKit Extension */;
+			targetProxy = C44C0A9D1C5345EF00DAF179 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C44C0A6B1C5345EF00DAF179 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C44C0A6C1C5345EF00DAF179 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C44C0A701C5345EF00DAF179 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C44C0A711C5345EF00DAF179 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C44C0A911C5345EF00DAF179 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C44C0A921C5345EF00DAF179 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C44C0AAB1C5345EF00DAF179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C44C0AAC1C5345EF00DAF179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C44C0AAE1C5345EF00DAF179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GeoDraw WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.hackArizona.GeoDraw.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		C44C0AAF1C5345EF00DAF179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GeoDraw WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.hackArizona.GeoDraw.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		C44C0AB21C5345EF00DAF179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = GeoDraw_WatchKit_Extension;
+				INFOPLIST_FILE = "GeoDraw WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = org.hackArizona.GeoDraw.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		C44C0AB31C5345EF00DAF179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = GeoDraw_WatchKit_Extension;
+				INFOPLIST_FILE = "GeoDraw WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = org.hackArizona.GeoDraw.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		C44C0AB61C5345EF00DAF179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeoDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.hackArizona.GeoDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C44C0AB71C5345EF00DAF179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeoDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.hackArizona.GeoDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C44C0AB91C5345EF00DAF179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GeoDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.hackArizona.GeoDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoDraw.app/GeoDraw";
+			};
+			name = Debug;
+		};
+		C44C0ABA1C5345EF00DAF179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GeoDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.hackArizona.GeoDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoDraw.app/GeoDraw";
+			};
+			name = Release;
+		};
+		C44C0ABC1C5345EF00DAF179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GeoDrawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.hackArizona.GeoDrawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GeoDraw;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C44C0ABD1C5345EF00DAF179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GeoDrawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.hackArizona.GeoDrawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GeoDraw;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C44C0A5F1C5345EF00DAF179 /* Build configuration list for PBXProject "GeoDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44C0AAB1C5345EF00DAF179 /* Debug */,
+				C44C0AAC1C5345EF00DAF179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C44C0AAD1C5345EF00DAF179 /* Build configuration list for PBXNativeTarget "GeoDraw WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44C0AAE1C5345EF00DAF179 /* Debug */,
+				C44C0AAF1C5345EF00DAF179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C44C0AB11C5345EF00DAF179 /* Build configuration list for PBXNativeTarget "GeoDraw WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44C0AB21C5345EF00DAF179 /* Debug */,
+				C44C0AB31C5345EF00DAF179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C44C0AB51C5345EF00DAF179 /* Build configuration list for PBXNativeTarget "GeoDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44C0AB61C5345EF00DAF179 /* Debug */,
+				C44C0AB71C5345EF00DAF179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C44C0AB81C5345EF00DAF179 /* Build configuration list for PBXNativeTarget "GeoDrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44C0AB91C5345EF00DAF179 /* Debug */,
+				C44C0ABA1C5345EF00DAF179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C44C0ABB1C5345EF00DAF179 /* Build configuration list for PBXNativeTarget "GeoDrawUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44C0ABC1C5345EF00DAF179 /* Debug */,
+				C44C0ABD1C5345EF00DAF179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C44C0A5C1C5345EF00DAF179 /* Project object */;
+}
