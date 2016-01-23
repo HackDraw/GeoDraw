@@ -7,20 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7741B9E51C541E3700C39D2F /* PickerInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7741B9E41C541E3700C39D2F /* PickerInterfaceController.swift */; };
 		C44C0A681C5345EF00DAF179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C0A671C5345EF00DAF179 /* AppDelegate.swift */; };
 		C44C0A6A1C5345EF00DAF179 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C0A691C5345EF00DAF179 /* ViewController.swift */; };
 		C44C0A6D1C5345EF00DAF179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44C0A6B1C5345EF00DAF179 /* Main.storyboard */; };
 		C44C0A6F1C5345EF00DAF179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44C0A6E1C5345EF00DAF179 /* Assets.xcassets */; };
 		C44C0A721C5345EF00DAF179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44C0A701C5345EF00DAF179 /* LaunchScreen.storyboard */; };
-		C44C0A7D1C5345EF00DAF179 /* GeoDrawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C0A7C1C5345EF00DAF179 /* GeoDrawTests.swift */; };
-		C44C0A881C5345EF00DAF179 /* GeoDrawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C0A871C5345EF00DAF179 /* GeoDrawUITests.swift */; };
 		C44C0A8D1C5345EF00DAF179 /* GeoDraw WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C44C0A8C1C5345EF00DAF179 /* GeoDraw WatchKit App.app */; };
 		C44C0A931C5345EF00DAF179 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44C0A911C5345EF00DAF179 /* Interface.storyboard */; };
 		C44C0A951C5345EF00DAF179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44C0A941C5345EF00DAF179 /* Assets.xcassets */; };
 		C44C0A9C1C5345EF00DAF179 /* GeoDraw WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C44C0A9B1C5345EF00DAF179 /* GeoDraw WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C44C0AA31C5345EF00DAF179 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C0AA21C5345EF00DAF179 /* InterfaceController.swift */; };
-		C44C0AA51C5345EF00DAF179 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C0AA41C5345EF00DAF179 /* ExtensionDelegate.swift */; };
-		C44C0AA71C5345EF00DAF179 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44C0AA61C5345EF00DAF179 /* NotificationController.swift */; };
 		C44C0AA91C5345EF00DAF179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44C0AA81C5345EF00DAF179 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +78,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7741B9E41C541E3700C39D2F /* PickerInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerInterfaceController.swift; sourceTree = "<group>"; };
 		C44C0A641C5345EF00DAF179 /* GeoDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44C0A671C5345EF00DAF179 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C44C0A691C5345EF00DAF179 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,11 +87,7 @@
 		C44C0A711C5345EF00DAF179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C44C0A731C5345EF00DAF179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C44C0A781C5345EF00DAF179 /* GeoDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C44C0A7C1C5345EF00DAF179 /* GeoDrawTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoDrawTests.swift; sourceTree = "<group>"; };
-		C44C0A7E1C5345EF00DAF179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C44C0A831C5345EF00DAF179 /* GeoDrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoDrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C44C0A871C5345EF00DAF179 /* GeoDrawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoDrawUITests.swift; sourceTree = "<group>"; };
-		C44C0A891C5345EF00DAF179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C44C0A8C1C5345EF00DAF179 /* GeoDraw WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GeoDraw WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44C0A921C5345EF00DAF179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		C44C0A941C5345EF00DAF179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,8 +95,6 @@
 		C44C0A9B1C5345EF00DAF179 /* GeoDraw WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GeoDraw WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44C0AA11C5345EF00DAF179 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		C44C0AA21C5345EF00DAF179 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		C44C0AA41C5345EF00DAF179 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		C44C0AA61C5345EF00DAF179 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		C44C0AA81C5345EF00DAF179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C44C0AAA1C5345EF00DAF179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,8 +135,6 @@
 			isa = PBXGroup;
 			children = (
 				C44C0A661C5345EF00DAF179 /* GeoDraw */,
-				C44C0A7B1C5345EF00DAF179 /* GeoDrawTests */,
-				C44C0A861C5345EF00DAF179 /* GeoDrawUITests */,
 				C44C0A901C5345EF00DAF179 /* GeoDraw WatchKit App */,
 				C44C0A9F1C5345EF00DAF179 /* GeoDraw WatchKit Extension */,
 				C44C0A651C5345EF00DAF179 /* Products */,
@@ -176,24 +166,6 @@
 			path = GeoDraw;
 			sourceTree = "<group>";
 		};
-		C44C0A7B1C5345EF00DAF179 /* GeoDrawTests */ = {
-			isa = PBXGroup;
-			children = (
-				C44C0A7C1C5345EF00DAF179 /* GeoDrawTests.swift */,
-				C44C0A7E1C5345EF00DAF179 /* Info.plist */,
-			);
-			path = GeoDrawTests;
-			sourceTree = "<group>";
-		};
-		C44C0A861C5345EF00DAF179 /* GeoDrawUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C44C0A871C5345EF00DAF179 /* GeoDrawUITests.swift */,
-				C44C0A891C5345EF00DAF179 /* Info.plist */,
-			);
-			path = GeoDrawUITests;
-			sourceTree = "<group>";
-		};
 		C44C0A901C5345EF00DAF179 /* GeoDraw WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,8 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				C44C0AA21C5345EF00DAF179 /* InterfaceController.swift */,
-				C44C0AA41C5345EF00DAF179 /* ExtensionDelegate.swift */,
-				C44C0AA61C5345EF00DAF179 /* NotificationController.swift */,
+				7741B9E41C541E3700C39D2F /* PickerInterfaceController.swift */,
 				C44C0AA81C5345EF00DAF179 /* Assets.xcassets */,
 				C44C0AAA1C5345EF00DAF179 /* Info.plist */,
 				C44C0AA01C5345EF00DAF179 /* Supporting Files */,
@@ -426,7 +397,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C44C0A7D1C5345EF00DAF179 /* GeoDrawTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +404,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C44C0A881C5345EF00DAF179 /* GeoDrawUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,9 +411,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C44C0AA71C5345EF00DAF179 /* NotificationController.swift in Sources */,
-				C44C0AA51C5345EF00DAF179 /* ExtensionDelegate.swift in Sources */,
 				C44C0AA31C5345EF00DAF179 /* InterfaceController.swift in Sources */,
+				7741B9E51C541E3700C39D2F /* PickerInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -733,6 +701,7 @@
 				C44C0AAF1C5345EF00DAF179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C44C0AB11C5345EF00DAF179 /* Build configuration list for PBXNativeTarget "GeoDraw WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -741,6 +710,7 @@
 				C44C0AB31C5345EF00DAF179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C44C0AB51C5345EF00DAF179 /* Build configuration list for PBXNativeTarget "GeoDraw" */ = {
 			isa = XCConfigurationList;
@@ -749,6 +719,7 @@
 				C44C0AB71C5345EF00DAF179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C44C0AB81C5345EF00DAF179 /* Build configuration list for PBXNativeTarget "GeoDrawTests" */ = {
 			isa = XCConfigurationList;
@@ -757,6 +728,7 @@
 				C44C0ABA1C5345EF00DAF179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C44C0ABB1C5345EF00DAF179 /* Build configuration list for PBXNativeTarget "GeoDrawUITests" */ = {
 			isa = XCConfigurationList;
@@ -765,6 +737,7 @@
 				C44C0ABD1C5345EF00DAF179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

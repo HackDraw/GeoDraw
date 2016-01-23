@@ -30,10 +30,10 @@
             </objects>
             <point key="canvasLocation" x="603" y="353"/>
         </scene>
-        <!--Interface Controller-->
+        <!--Picker Interface Controller-->
         <scene sceneID="56Z-Ni-vug">
             <objects>
-                <controller id="XJe-9E-Svl">
+                <controller id="XJe-9E-Svl" customClass="PickerInterfaceController" customModule="GeoDraw_WatchKit_Extension">
                     <items>
                         <group width="1" alignment="left" id="dIj-d3-giM">
                             <items>
@@ -44,6 +44,9 @@
                         </group>
                     </items>
                     <connections>
+                        <outlet property="blue_picker" destination="w3f-Bg-grt" id="3SO-An-FSj"/>
+                        <outlet property="green_picker" destination="qlX-ac-l4J" id="v7h-uS-20I"/>
+                        <outlet property="red_picker" destination="dXs-bY-kTk" id="3Fa-JJ-Wg6"/>
                         <segue destination="XMN-7R-TNb" kind="relationship" relationship="nextPage" id="w4z-8f-H5t"/>
                     </connections>
                 </controller>
