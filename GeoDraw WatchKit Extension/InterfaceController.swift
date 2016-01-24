@@ -10,7 +10,12 @@ import WatchKit
 import Foundation
 
 class InterfaceController: WKInterfaceController {
-
+    var is_running : Bool
+    
+    override init() {
+        is_running = false
+    }
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
@@ -27,4 +32,14 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
+    @IBOutlet var big_button: WKInterfaceButton!
+    @IBAction func big_button_press() {
+        if is_running {
+            is_running = false
+            big_button.setBackgroundColor(UIColor.greenColor())
+        } else {
+            is_running = true
+            big_button.setBackgroundColor(UIColor.redColor())
+        }
+    }
 }

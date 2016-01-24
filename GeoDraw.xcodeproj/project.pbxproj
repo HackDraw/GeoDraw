@@ -93,7 +93,6 @@
 		C44C0A941C5345EF00DAF179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C44C0A961C5345EF00DAF179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C44C0A9B1C5345EF00DAF179 /* GeoDraw WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GeoDraw WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C44C0AA11C5345EF00DAF179 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		C44C0AA21C5345EF00DAF179 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		C44C0AA81C5345EF00DAF179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C44C0AAA1C5345EF00DAF179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -191,7 +190,6 @@
 		C44C0AA01C5345EF00DAF179 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C44C0AA11C5345EF00DAF179 /* PushNotificationPayload.apns */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";

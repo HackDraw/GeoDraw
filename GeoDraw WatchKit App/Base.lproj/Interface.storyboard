@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="XJe-9E-Svl">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
@@ -35,23 +35,42 @@
             <objects>
                 <controller id="XJe-9E-Svl" customClass="PickerInterfaceController" customModule="GeoDraw_WatchKit_Extension">
                     <items>
+                        <label height="19.5" alignment="center" text="GeoDraw" id="LKx-yw-hpe">
+                            <fontDescription key="font" type="boldSystem" pointSize="26"/>
+                        </label>
                         <group width="1" alignment="left" id="dIj-d3-giM">
                             <items>
-                                <picker width="0.33000000000000002" height="100" alignment="left" id="dXs-bY-kTk"/>
-                                <picker width="0.33000000000000002" height="100" alignment="left" id="qlX-ac-l4J"/>
-                                <picker width="0.33000000000000002" height="100" alignment="left" id="w3f-Bg-grt"/>
+                                <picker width="0.33000000000000002" height="100" alignment="left" id="dXs-bY-kTk">
+                                    <connections>
+                                        <action selector="red_val_click:" destination="XJe-9E-Svl" id="LSl-iL-OKu"/>
+                                    </connections>
+                                </picker>
+                                <picker width="0.33000000000000002" height="100" alignment="left" id="qlX-ac-l4J">
+                                    <connections>
+                                        <action selector="green_val_click:" destination="XJe-9E-Svl" id="DTl-hV-hVV"/>
+                                    </connections>
+                                </picker>
+                                <picker width="0.33000000000000002" height="100" alignment="left" id="w3f-Bg-grt">
+                                    <connections>
+                                        <action selector="blue_val_click:" destination="XJe-9E-Svl" id="aYT-w3-XNM"/>
+                                    </connections>
+                                </picker>
                             </items>
                         </group>
+                        <label alignment="center" text="Current Color" id="Pr4-ec-3QP">
+                            <fontDescription key="font" type="system" weight="heavy" pointSize="19"/>
+                        </label>
                     </items>
                     <connections>
                         <outlet property="blue_picker" destination="w3f-Bg-grt" id="3SO-An-FSj"/>
+                        <outlet property="color_text" destination="Pr4-ec-3QP" id="C4X-lk-D8h"/>
                         <outlet property="green_picker" destination="qlX-ac-l4J" id="v7h-uS-20I"/>
                         <outlet property="red_picker" destination="dXs-bY-kTk" id="3Fa-JJ-Wg6"/>
-                        <segue destination="XMN-7R-TNb" kind="relationship" relationship="nextPage" id="w4z-8f-H5t"/>
+                        <segue destination="AgC-eL-Hgc" kind="relationship" relationship="nextPage" id="vm6-ua-pt6"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="221" y="353"/>
+            <point key="canvasLocation" x="60" y="353"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
@@ -61,17 +80,18 @@
                         <button width="0.80000000000000004" height="0.80000000000000004" alignment="center" verticalAlignment="center" title="Start" id="q0H-vG-ooL">
                             <color key="backgroundColor" red="0.0" green="1" blue="0.016062608867891903" alpha="1" colorSpace="calibratedRGB"/>
                             <fontDescription key="font" type="system" pointSize="35"/>
+                            <connections>
+                                <action selector="big_button_press" destination="AgC-eL-Hgc" id="XU4-xb-bKW"/>
+                            </connections>
                         </button>
-                        <label height="19.5" alignment="center" text="GeoDraw" id="LKx-yw-hpe">
-                            <fontDescription key="font" type="system" pointSize="27"/>
-                        </label>
                     </items>
                     <connections>
-                        <segue destination="XJe-9E-Svl" kind="relationship" relationship="nextPage" id="q0C-E5-2Mc"/>
+                        <outlet property="big_button" destination="q0H-vG-ooL" id="Jux-o7-sGu"/>
+                        <segue destination="XMN-7R-TNb" kind="relationship" relationship="nextPage" id="z5P-k6-YIz"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="21" y="353"/>
+            <point key="canvasLocation" x="241" y="353"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="dSY-Ls-AMU">
