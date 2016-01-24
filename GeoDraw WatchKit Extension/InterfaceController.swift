@@ -79,6 +79,7 @@ class InterfaceController: WKInterfaceController, CLLocationManagerDelegate {
             big_button.setBackgroundColor(UIColor.redColor())
             loc_manager.stopUpdatingLocation()
             update_timer.invalidate()
+            }
         }
     }
 }
